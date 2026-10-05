@@ -1,0 +1,15 @@
+# PyTorch must come from the CUDA 12.1 index; the 12.4+ wheels need a newer
+# driver than 535.x ships with.
+#   pip install --index-url https://download.pytorch.org/whl/cu121 torch==2.4.1
+torch==2.4.1
+numpy<2
+matplotlib
+imageio
+imageio-ffmpeg
+tensorboard
+rich
+tqdm
+scipy
+pillow
+pandas      # MaleCNS tables (whole-brain model, brain maps)
+pyarrow     # feather reader for pandas

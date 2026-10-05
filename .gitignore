@@ -1,0 +1,46 @@
+# environments, caches, local tool settings
+.claude/
+.venv/
+.venv-flyvis/
+__pycache__/
+*.pyc
+logs/
+
+# MaleCNS tables: fetch with scripts/fetch_data.sh
+data/
+
+# training runs: keep only figures and the representative checkpoints
+runs/*
+!runs/brain_regions.png
+!runs/city_results.png
+!runs/city_v3_results.png
+!runs/comparison.png
+!runs/demo_city.png
+!runs/demo_city_v3.png
+!runs/demo_render.png
+!runs/t4t5_tuning.png
+!runs/final_fly_plain/
+runs/final_fly_plain/*
+!runs/final_fly_plain/last.pt
+!runs/final_fly_v3/
+runs/final_fly_v3/*
+!runs/final_fly_v3/last.pt
+!runs/bc_cns_v10/
+runs/bc_cns_v10/*
+!runs/bc_cns_v10/last.pt
+!runs/bc_cns_v3city/
+runs/bc_cns_v3city/*
+!runs/bc_cns_v3city/last.pt
+!runs/cns_frozen/
+runs/cns_frozen/*
+!runs/cns_frozen/best.pt
+!runs/fly01/
+runs/fly01/*
+!runs/fly01/best.pt
+
+# videos: only the final drives (phone-sized)
+videos/*
+!videos/city_final_all_small.mp4
+!videos/city_v3_final_all_small.mp4
+!videos/city_cns_brain_small.mp4
+!videos/city_cns_final_small.mp4

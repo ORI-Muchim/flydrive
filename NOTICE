@@ -1,0 +1,9 @@
+Connectome data. The MaleCNS v1.0 dataset (Janelia FlyEM, University of
+Cambridge, MRC Laboratory of Molecular Biology and Google Research) is
+licensed under CC BY 4.0, https://creativecommons.org/licenses/by/4.0/.
+It is not included in this repository (scripts/fetch_data.sh downloads it).
+Files here that are derived from it -- the whole-brain checkpoints (neuron
+types and sizes taken from the connectome) and the figures and videos that
+show MaleCNS soma positions -- are shared under CC BY 4.0 with that
+attribution. See https://male-cns.janelia.org for the dataset and how to
+cite it.
